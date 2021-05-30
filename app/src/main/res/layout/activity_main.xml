@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/diabetes"
+        android:layout_marginBottom="150sp"/>
+    <Button
+         android:layout_width="150sp"
+         android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+         android:text="SignUp"
+         android:textColor="@android:color/holo_red_dark"
+         android:background="@android:color/holo_blue_light"
+         android:id="@+id/signup"
+         android:textSize="30sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80sp"
+            android:textSize="20sp"
+            android:id="@+id/login"
+            android:text="Login "
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>
+</ScrollView>
